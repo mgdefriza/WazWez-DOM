@@ -1,0 +1,262 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 80px 40px;
+    
+}
+
+nav .profile{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+fieldset{
+    position: relative;
+    display: flex;
+    width: 800px;
+    height: 672px;
+    margin: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: none;
+    margin-bottom: 50px;
+}
+
+.content{
+    margin: 40px 40px 24px 40px;
+    width: 100%;
+}
+
+.task{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.titlecta{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cta{
+    display: inline-flex;
+    background-color: orangered;
+    padding: 12px 15px;
+    border-radius: 60px;
+    gap: 8px;
+    
+}
+
+
+.filter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropdown{
+    display: flex;
+    border: 1px solid #FF5F26;
+    padding: 10px 14px;
+    border-radius: 50px;
+    gap: 10px;
+    
+}
+
+.isitask{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    background-color: #E5E5E5;
+    padding: 25px;
+}
+
+.input-title{
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+}
+
+.input-task{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.input-nama-tugas{
+    font-size: 18px;
+}
+
+.nama-tugas{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.date-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.info-tugas{
+    display: flex;
+}
+.date-tugas{
+    display: flex;
+}
+
+.frame49{
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+}
+.productdesign{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.judultask1{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.judul-keterangan1{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.judul-1{
+    font-size: 18px;
+}
+
+.date1{
+    font-size: 12px;
+    padding: 8px 12px;
+    border-radius: 50px;
+    width: 66px;
+    height: 28px;
+    line-height: 100%;
+}
+
+.arrow-down1{
+    display: flex;
+    width: 24px;
+    height: 24px;
+    padding: 7px 6px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.development{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.frame49-2{
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.judul-keterangan2{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.judul-2{
+    font-size: 18px;
+}
+
+.date-2{
+    padding: 8px 12px;
+    border-radius: 50px;
+    width: 97px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 100%;
+}
+
+.arrow-down2{
+    display: flex;
+    width: 24px;
+    height: 24px;
+    padding: 7px 6px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.launching{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;   
+}
+
+.frame49-3{
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;   
+}
+
+.judul-keterangan3{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.judul-3{
+    font-size: 18px;
+}
+
+.date-3{
+    font-size: 12px;
+    padding: 8px 12px;
+    border-radius: 50px;
+    width: 99px;
+    height: 28px;
+    line-height: 100%;
+}
+
+.arrow-down3{
+    display: flex;
+    width: 24px;
+    height: 24px;
+    padding: 7px 6px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;   
+}
+
+.stroke{
+    position: absolute;
+    top: 580px;
+    left: 40px;
+}
+
+.footer{
+    position: absolute;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    top: 584px;
+    left: 40px;
+    bottom: 24px;
+
+}

@@ -1,0 +1,498 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 80px 40px;
+    
+}
+
+nav .profile{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    cursor: pointer;
+}
+
+fieldset{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 800px;
+    height: 672px;
+    margin: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: none;
+    margin-bottom: 50px;
+}
+
+.content{
+    margin: 40px 40px 24px 40px;
+    /* width: 100%; */
+}
+
+.task{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.titlecta{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cta{
+    display: inline-flex;
+    background-color: orangered;
+    padding: 12px 15px;
+    border-radius: 60px;
+    gap: 8px;
+    transition: background-color 0.3s ease; 
+    cursor: pointer; 
+}
+
+.cta:hover{
+    background-color: #b84300; 
+}
+
+.filter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropdown{
+    display: flex;
+    border: 1px solid #FF5F26;
+    padding: 10px 14px;
+    border-radius: 50px;
+    gap: 10px;
+    cursor: pointer;
+}
+.dropdown:active {
+    background-color: #bbbbbb; /* Ganti warna latar saat diklik */
+    
+}
+
+
+#arrow-filter, #arrow{
+    cursor: pointer;
+}
+
+.isitask{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    background-color: #E5E5E5;
+    padding: 25px;
+}
+
+.input-title{
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+}
+
+.input-task{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.input-nama-tugas{
+    font-size: 18px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.input-nama-tugas::placeholder{
+    color: #9E9E9E;
+}
+
+.nama-tugas{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.deskripsi-tugas{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    width: 240px;
+}
+
+.deskripsi-tugas::placeholder{
+    color: #9E9E9E;
+}
+
+.date-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.info-tugas{
+    display: flex;
+}
+.date-tugas{
+    display: flex;
+}
+
+#tanggalWaktu{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: #9E9E9E;
+}
+
+.frame49{
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+}
+.productdesign{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.judultask1{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.judul-keterangan1{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.judul-1{
+    font-size: 18px;
+}
+
+.date1{
+    font-size: 12px;
+    padding: 8px 12px;
+    border-radius: 50px;
+    width: 66px;
+    height: 28px;
+    line-height: 100%;
+}
+
+.detail-keterangan1{
+    font-size: 14px;
+}
+
+.judul-subtask{
+    font-size: 16px;
+}
+
+.btn-tambah{
+    font-size: 12px;
+    color: #FF5F26;
+}
+
+.arrow-down1{
+    display: flex;
+    width: 24px;
+    height: 24px;
+    padding: 7px 6px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.rotated {
+    transform: rotate(180deg);
+  }
+
+.sub-task{
+    width: 100%;
+    background-color: #F5F5F5;
+    border-radius: 8px;
+}
+.nav-subtask{
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 16px;
+}
+
+.btn-subtask{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #9E9E9E;
+    border-radius: 50px;
+    padding: 6px 10px;
+    background-color: #FFFFFF;
+}
+
+.list-subtask{
+    display: flex;
+    flex-direction: column;
+    margin: 16px 16px;
+    gap: 10px;
+}
+
+.list-subtask1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.judul-subtask1{
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+.list-subtask2{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.judul-subtask2{
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+.list-subtask3{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.judul-subtask3{
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+.btn-subtask{
+    cursor: pointer;
+}
+
+.list-subtask4{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.judul-subtask4{
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+#trash-1, #trash-2, #trash-3, #trash-4{
+    cursor: pointer;
+}
+
+.development{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.frame49-2{
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.judul-keterangan2{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.judul-2{
+    font-size: 18px;
+}
+
+.date-2{
+    padding: 8px 12px;
+    border-radius: 50px;
+    width: 97px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 100%;
+}
+
+.arrow-down2{
+    display: flex;
+    width: 24px;
+    height: 24px;
+    padding: 7px 6px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    cursor: pointer;
+
+}
+
+.launching{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;   
+}
+
+.frame49-3{
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;   
+}
+
+.judul-keterangan3{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.judul-3{
+    font-size: 18px;
+}
+
+.date-3{
+    font-size: 12px;
+    padding: 8px 12px;
+    border-radius: 50px;
+    width: 99px;
+    height: 28px;
+    line-height: 100%;
+}
+
+.arrow-down3{
+    display: flex;
+    width: 24px;
+    height: 24px;
+    padding: 7px 6px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    cursor: pointer;   
+}
+
+.popup-filter {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 144px;
+    border-radius: 8px;
+    border: 1px solid grey; 
+    position: absolute;
+    top: 29%; 
+    left: 58%; 
+    background-color: white; 
+    z-index: 999; 
+    padding: 20px; 
+    gap: 12px;
+}
+
+.filter-option{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer{
+    /* position: absolute; */
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    /* top: 584px; */
+    /* left: 40px; */
+    /* bottom: 24px; */
+}
+
+#arrow-footer{
+    cursor: pointer;
+}
+
+.task-done-footer{
+    margin: 0 40px 24px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.list-task-done{
+    flex-direction: column;
+    display: flex;
+    gap: 16px;
+}
+
+.task-done-1, .task-done-2, .task-done-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.task-label{
+    font-size: 18px;
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+.left{
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    
+}
+
+.left input{
+    display: none;
+}
+
+.left span{
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    border: 3px solid orangered;
+    position: relative;
+}
+
+.left span:after{
+    content: "";
+    height: 14px;
+    width: 14px;
+    background:orangered;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%)scale(0);
+    border-radius: 50%;
+    transition: 300ms ease-in-out 0s;
+}
+
+.left input:checked ~ span:after{
+    transform: translate(-50%,-50%)scale(1);
+}
+
+.d-none{
+    display: none;
+}

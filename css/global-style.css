@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    font-family: "Poppins";
+    box-sizing: border-box;
+    /* rest margin padding bawaan */
+    margin: 0;
+    padding: 0;
+}
+
+.rectangle-subtask1{
+    border-radius: 100px;
+    border: 1px solid var(--Text-Colors-Gray, #CCCED2);
+    background: var(--Text-Colors-White, #FFF);
+    width: 28px;
+    height: 28px;
+}
+
+.rectangle-subtask2{
+    border-radius: 100px;
+    border: 1px solid var(--Text-Colors-Gray, #CCCED2);
+    background: var(--Text-Colors-White, #FFF);
+    width: 28px;
+    height: 28px;
+}
+
+.rectangle-subtask3{
+    border-radius: 100px;
+    border: 1px solid var(--Text-Colors-Gray, #CCCED2);
+    background: var(--Text-Colors-White, #FFF);
+    width: 28px;
+    height: 28px;
+}
+
+.rectangle-subtask4{
+    border-radius: 100px;
+    border: 1px solid var(--Text-Colors-Gray, #CCCED2);
+    background: var(--Text-Colors-White, #FFF);
+    width: 28px;
+    height: 28px;
+}

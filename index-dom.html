@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas JS DOM</title>
+
+    <link rel="stylesheet" href="../css/global-style.css">
+    <link rel="stylesheet" href="./css/dom-style.css">
+    <link rel="stylesheet" href="../css/mobile-sm-style.css"> 
+    <link rel="stylesheet" href="../css/mobile-L-style.css">
+    <link rel="stylesheet" href="../css/tablet-style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo"> <img src="../assets/Logo.svg" alt="Logo"></div>
+        <div class="profile">
+            <img id="notification-nav" src="../assets/Notification.svg" alt="Notification">
+            <img id="user-nav" src="../assets/Group_30.svg" alt="user">
+            <div class="username">Crozeo Jupiter</div>
+            <img id="arrow-nav" src="../assets/Arrow-Down_2.svg" alt="Arrow-Down_2">
+        </div>
+    </nav>
+
+    <section id="dashboard1">
+        <fieldset>
+            <div class="content">
+                <div class="task">
+                    <div class="titlecta">
+                        <div class="title">
+                            <img id="my-task" src="../assets/MY TASKS.svg" alt="my-task" style="width: 85px; height: 16px;">
+                            <img id="frame-35" src="../assets/Frame 35.svg" alt="frame-35" style="width: 113px; height: 24px;">
+                            <img id="tugas-harian" src="../assets/Buat list tugas harian saya.svg" alt="tugas-harian">
+                        </div>
+                        <div class="cta">
+                            <img src="../assets/./Plus.svg" alt="">
+                            <div class="tambahtugas" style="color: #FFFFFF;">Tambah Tugas</div>
+                        </div>
+
+                    </div>
+                    <div class="filter">
+                        <div class="sortby" style="color: #7A7F83;">Sort By</div>
+                        <div class="dropdown">
+                            <div class="bytanggal" style="color: #FF5F26;">By Tanggal</div>
+                            <img id="arrow-filter" src="../assets/Arrow - Down 2 (Orange).svg" alt="arrowdropdown">
+                        </div>
+                    </div>
+                    <div class="isitask d-none">
+                        <div class="input-tugas">
+                            <div class="input-title">
+                                <img id="circle-input1" src="../assets/Circle_21.svg" alt="">
+                                <div class="input-task">
+                                    <div class="nama-tugas">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="2" height="30" viewBox="0 0 2 30" fill="none">
+                                        <path d="M1 1V29" stroke="#262530" stroke-linecap="round" stroke-linejoin="round"/>
+                                      </svg>
+                                      <input type="text" class="input-nama-tugas" placeholder="Masukkan nama tugas"/>
+                                    </div>
+                                    <div class="date-info">
+                                        <div style="gap: 8px;" class="info-tugas">
+                                            <img src="../assets/menu.svg" alt="logo-menu">
+                                            <input type="text" class="deskripsi-tugas" placeholder="Deskripsi Tugas (Optional)"/>
+                                        </div>
+                                        <div style="gap: 8px;" class="date-tugas">
+                                            <img  src="../assets/Calendar.svg" alt="calendar">
+                                            <input type="date" id="tanggalWaktu" name="tanggalWaktu">
+                                        </div>
+                                </div>
+                                
+                                    
+                                    </div>
+                                </div>
+
+                            </div>  
+                        </div>
+                        <div class="productdesign">
+                            <div class="frame49">
+                                <img id="circle-1" src="../assets/Circle_21.svg" alt="">
+                                <div class="judultask1">
+                                    <div class="judul-keterangan1">
+                                        <div class="judul-1">Product Design</div>
+                                        <div class="date1"
+                                            style="background-color: #FFEBD3; color: #FF5F26;">
+                                            Hari Ini</div>
+                                    </div>
+                                    <div class="detail-keterangan1" style="color: #7A7F83; font-size: 14px;">Tugas untuk
+                                        design team
+                                    </div>
+                                </div>
+                            </div>
+                            <img class="arrow-down1" id="arrow" src="../assets/Arrow-Down_2.svg" alt="">
+                        </div>
+                        <div class="sub-task d-none">
+                            <div id="nav-subtask" class="nav-subtask">
+                                <div class="judul-subtask">Subtask</div>
+                                <div class="btn-subtask">
+                                    <img src="../assets/Plus (Orange).svg" alt="icon-plus">
+                                    <div class="btn-tambah">Tambah</div>
+                                </div>
+                            </div>
+                            <div class="list-subtask">
+                                <div class="list-subtask1">
+                                    <div class="judul-subtask1">
+                                        <div class="rectangle-subtask1"></div>
+                                        <div class="subtask-1">Design Review</div>
+                                    </div>
+                                    <img id="trash-1" src="../assets/trash.svg" alt="trash">
+                                </div>
+                                <div class="list-subtask2">
+                                    <div class="judul-subtask2">
+                                        <div class="rectangle-subtask2"></div>
+                                        <div class="subtask-2">Low-Fidelity design</div>
+                                    </div>
+                                    <img id="trash-2" src="../assets/trash.svg" alt="trash">
+                                </div>
+                                <div class="list-subtask3">
+                                    <div class="judul-subtask3">
+                                        <div class="rectangle-subtask3"></div>
+                                        <div class="subtask-3">High-Fidelty design</div>
+                                    </div>
+                                    <img id="trash-3" src="../assets/trash.svg" alt="trash">
+                                </div>
+                                <div class="list-subtask4">
+                                    <div class="judul-subtask4">
+                                        <div class="rectangle-subtask4"></div>
+                                        <div class="subtask-4">Design Gudielines</div>
+                                    </div>
+                                    <img id="trash-4" src="../assets/trash.svg" alt="trash">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="development">
+                            <div class="frame49-2">
+                                <img id="circle-2" src="../assets/Circle_21.svg" alt="">
+                                <div class="judultask2">
+                                    <div class="judul-keterangan2">
+                                        <div class="judul-2">Development</div>
+                                        <div class="date-2" style="background-color: #FFEBD3; color: #FF5F26;">15 Juni 2022</div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <img class="arrow-down2" src="../assets/Arrow-Down_2.svg" alt="">
+                        </div>
+                        <div class="launching">
+                            <div class="frame49-3">
+                                <img id="circle-3" src="../assets/Circle_21.svg" alt="">
+                                <div class="judultask3">
+                                    <div class="judul-keterangan3">
+                                        <div class="judul-3">Launching WazWez Website</div>
+                                        <div style="background-color: #FFEBD3; color: #FF5F26;" class="date-3">20 Juni 2022</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img class="arrow-down3" src="../assets/Arrow-Down_2.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="d-none popup-filter">
+                    <div class="filter-option">
+                        <span>By Tanggal</span>
+                        <img class="circle-animate" src="../assets/Circle_21.svg" alt="Circle">
+                    </div>
+                    <div class="filter-option">
+                        <span>By Time</span>
+                        <img class="circle-animate" src="../assets/Circle_21.svg" alt="Circle">
+                    </div>
+                    <div class="filter-option">
+                        <span>Terbaru</span>
+                        <img class="circle-animate" src="../assets/Circle_21.svg" alt="Circle">
+                    </div>
+                </div>
+                
+                <div class="task-done-footer">
+                    <svg class="stroke" xmlns="http://www.w3.org/2000/svg" width="720" height="2" viewBox="0 0 800 2" fill="none">
+                    <path d="M0 1H800" stroke="#CCCED2"/>
+                  </svg>
+                    <div class="footer">
+                        <img id="arrow-footer" src="./assets/Arrow-Down_2.svg" alt="arrow">
+                        <div class="tugas-terselesaikan"> Tugas terselesaikan 3</div>
+                    </div>
+                    <div class="list-task-done d-none">
+                        <div class="task-done-1">
+                            <div class="left">
+                                <input type="radio" id="task1" class="task-checkbox"><span></span>
+                                <label  for="task1" class="task-label">Reqruitment details</label>
+                            </div>
+                            <img id="arrow" src="./assets/Arrow-Down_2.svg" alt="arrow-down">   
+                        </div>
+                        
+                        <div class="task-done-2">
+                            <div class="left">
+                                <input type="radio" id="task2" class="task-checkbox"><span></span>
+                                <label  for="task2" class="task-label">Backlog teams</label>
+                            </div>
+                            <img id="arrow" src="./assets/Arrow-Down_2.svg" alt="arrow-down">
+                        </div>
+                        
+                        <div class="task-done-3">
+                            <div class="left">
+                                <input type="radio" id="task3" class="task-checkbox"><span></span>
+                                <label  for="task3" class="task-label">Meeting with teams</label>
+                            </div>
+                            <img id="arrow" src="./assets/Arrow-Down_2.svg" alt="arrow-down">
+                        </div>
+                    
+                </div>
+                </div>  
+            </div>
+        </fieldset>
+
+        <div></div>
+    </section>
+<script src="../js/index-js.js"></script>
+
+</body>
+
+</html>

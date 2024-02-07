@@ -1,0 +1,187 @@
+/* Untuk Mobile L Responsive */
+
+@media only screen and (min-width:376px) and (max-width: 426px){
+
+    nav{
+        margin: auto;
+        width: 85vw;
+        height: 35vh;
+    }
+
+    .logo img{
+        width: 25vw;
+    }
+
+    #notification-nav{
+        width: 5vw;
+    }
+
+    #user-nav{
+        width: 10vw;
+    }
+
+    #arrow-nav{
+        width: 2.5vw;
+    }
+
+    .username{
+        font-size: 3vw;
+    }
+
+    #dashboard1{
+        display: flex;
+    }
+
+    fieldset{
+        width: 90vw;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .task{
+        width: 85vw;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 10px 10px;
+    }
+
+    .cta{
+        width: 25vw;
+        height: 10vh;
+    }
+    .cta img{
+        width: 4vw;
+    }
+
+    #mytask{
+        width: 20vw;
+    }
+
+    #frame-35{
+        width: 25vw;
+    }
+
+    #tugas-harian{
+        width: 40vw;
+    }
+
+    .cta{
+        padding: 10px 10px;
+    }
+
+    .cta img{
+        width: 4vw;
+    }
+
+    .tambahtugas{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 2vw;
+    }
+
+    .dropdown{
+        width: 25vw;
+        font-size: 2vw;
+        align-items: center;
+    }
+
+    .sortby{
+        font-size: 3.5vw;
+    }
+
+    .dropdown img{
+        width: 4vw;
+    }
+
+
+    #circle-1, #circle-2, #circle-3{
+        width: 5vw;
+    }
+
+    .judul-1 , .judul-2 , .judul-3{
+        font-size: 3.5vw;
+    }
+
+    .detail-keterangan1{
+        font-size: 3vw;
+    }
+
+    .date1, .date-2, .date-3{
+      
+        font-size: 2.7vw;
+    }
+
+    .arrow-down1, .arrow-down2, .arrow-down3{
+        width: 5vw;
+    }
+
+    .stroke{
+        position: unset;
+        width: 85vw;
+        
+    }
+
+    .footer{
+        position: unset;
+        
+    }
+
+    .tugas-terselesaikan{
+        font-size: 3vw;
+    }
+
+
+    /* Untuk Responsive L page sort-by */
+
+    .rectangle-subtask1, .rectangle-subtask2, .rectangle-subtask3, .rectangle-subtask4{
+        width: 5vw;
+        height: 5vw;
+    }
+    
+    .subtask-1, .subtask-2, .subtask-3, .subtask-4{
+        font-size: 3.5vw;
+    }
+
+    #trash-1, #trash-2, #trash-3, #trash-4{
+        width: 3.5vw;
+    }
+
+    .judul-subtask{
+        font-size: 3vw;
+    }
+    .btn-subtask{
+        padding: 2px 5px;
+    }
+
+    /* Untuk Responsive L page create-tugas */
+
+    .isitask{
+        padding: initial;
+    }
+
+    #circle-input1{
+        width: 5vw;
+    }
+
+    .input-nama-tugas{
+        font-size: 3.5vw;
+    }
+
+    .input-task{
+        font-size: 3vw;
+    }
+
+    .info-tugas img{
+        width: 3.5vw;
+    }
+
+    .date-tugas img{
+        width: 3.5vw;
+    }
+
+}
